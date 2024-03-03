@@ -4834,6 +4834,7 @@ impl Editor {
         })
     }
 
+    // TODO kb add editor tests
     pub fn revert_selected_chunks(&mut self, _: &RevertSelectedChunks, cx: &mut ViewContext<Self>) {
         let mut revert_changes = Vec::new();
 
